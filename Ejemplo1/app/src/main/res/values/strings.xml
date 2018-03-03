@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Ejemplo1</string>
+    <string name="app_name">Clases Android</string>
+    <string name="mensaje_inicial">Iniciando Curso Android 2018</string>
+    <string name="titulo">CLASE #1</string>
+    <string name="btn_saludar">Saludar</string>
 </resources>

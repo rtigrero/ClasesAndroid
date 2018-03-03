@@ -3,4 +3,6 @@
     <string name="mensaje_inicial">Iniciando Curso Android 2018</string>
     <string name="titulo">CLASE #1</string>
     <string name="btn_saludar">Saludar</string>
+    <string name="chec1">Mensaje</string>
+    <string name="chec2">Notificacion</string>
 </resources>

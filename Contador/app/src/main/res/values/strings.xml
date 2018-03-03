@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Contador</string>
+    <string name="lbl_contador">CONTADOR</string>
+    <string name="tv_resultado">0</string>
+    <string name="Incrementar">+</string>
+    <string name="Disminuir">-</string>
+    <string name="Resetear">Reset</string>
+    <string name="btn_resetear">Resetear</string>
+    <string name="chk_habilitar">Desabilitar</string>
+</resources>

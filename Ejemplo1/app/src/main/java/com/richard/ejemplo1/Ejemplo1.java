@@ -15,6 +15,7 @@ public class Ejemplo1 extends Activity {
     private TextView mensaje;
     private Button ejecutar_saludo;
     private EditText nombre;
+    private CheckBox chk_c1,chk_c2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,8 @@ public class Ejemplo1 extends Activity {
         mensaje = (TextView) findViewById(R.id.tv_saludo);
         ejecutar_saludo=(Button) findViewById(R.id.btn_saludar);
         nombre = (EditText) findViewById(R.id.edt_nombre);
+        chk_c1= (CheckBox) findViewById(R.id.chk_c1);
+        chk_c2= (CheckBox) findViewById(R.id.chk_c2);
         mensaje.setText("");
         //notificacion();
 
@@ -34,9 +37,23 @@ public class Ejemplo1 extends Activity {
                     notificacion2("Debe Ingresar un Nombre ");
                 }else
                 {
-                    mensaje.setText("Hola "+nombre.getText().toString());
+                   if(chk_c1.isChecked()==true)
+                   {
+                       mensaje.setText("Hola "+nombre.getText().toString());
+                   }else
+                   {
+                       mensaje.setText("");
+                   }
 
-                    notificacion2("Hola -> "+nombre.getText().toString());
+                    if(chk_c2.isChecked())
+                    {
+                        notificacion2("Hola -> "+nombre.getText().toString());
+                    }else
+                    {
+                        //mensaje.setText("");
+                    }
+
+
                 }
 
 

@@ -24,6 +24,19 @@
         android:hint="Ingrese su Nombre"
         android:inputType="textPersonName" />
 
+    <CheckBox
+        android:id="@+id/chk_c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chec1" />
+
+    <CheckBox
+        android:id="@+id/chk_c2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/chec2" />
+
     <Button
         android:id="@+id/btn_saludar"
         android:layout_width="match_parent"
